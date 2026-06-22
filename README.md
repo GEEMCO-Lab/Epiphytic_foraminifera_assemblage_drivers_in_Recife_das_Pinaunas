@@ -10,13 +10,8 @@ This study investigates the spatial and seasonal variation in the assemblages of
 ## Repository Structure
 
 ```text
-├── data/
-│   ├── table_S3_environmental_variables.pdf    # Environmental variables (pH, salinity, DO, etc.)
-│   ├── table_S2_epiphytic_foram_abundance_data.pdf     # Species abundance matrix
-│
 ├── results/
-│   ├── statistical_analysis                    # Statistical summaries, ANOVA, PERMANOVA, VIF, GAM outputs
-│   ├── plots                                   # Visualization panels (diversity, environmental, NMDS, GAM)
+│   ├── plots                                   # Visualization panels
 │
 ├── epiphytic_foram_env_analyses.R # Main R analysis script
 │
@@ -36,7 +31,7 @@ The main script **`epiphytic_foram_env_analyses.R`** performs the following anal
    Calculates and compares:
    - Shannon–Wiener diversity
    - FoRAM Index
-   - Margalef richness
+   - Number of species
    - Pielou’s evenness  
    across seasons and river basins.
 
